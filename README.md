@@ -20,7 +20,7 @@ We implemented and compared four distinct approaches:
 
 ---
 
-### 🏆 Final Results
+### Final Results
 The ensemble model achieved near-perfect classification performance, demonstrating that combining sequence modeling (LSTM) with contextual attention (BERT) yields the most robust results.
 
 | Model | Accuracy | F1-Score | AUC Score |
@@ -34,14 +34,14 @@ The ensemble model achieved near-perfect classification performance, demonstrati
 
 ---
 
-### 🧪 Key Experiments & Rubric Requirements
+### Key Experiments & Rubric Requirements
 * **Ablation Study:** We compared a "Low Regularization" LSTM (Dropout 0.2) against a "High Regularization" LSTM (Dropout 0.5 + L2 Weight Decay). The high regularization model generalized better (99.26% vs 99.14%).
 * **Optimization:** Utilized `ReduceLROnPlateau` scheduler and `EarlyStopping` to prevent overfitting.
 * **Evaluation:** Comprehensive reporting including Confusion Matrix, ROC Curves, and Per-Class metrics.
 
 ---
 
-### 📂 Dataset
+### Dataset
 We used the **Fake and Real News Dataset** from Kaggle.
 *Due to file size limits, the dataset is not included in this repository.*
 
@@ -53,7 +53,7 @@ We used the **Fake and Real News Dataset** from Kaggle.
 
 ---
 
-### 🚀 How to Run
+### How to Run
 1.  Open the `.ipynb` file in **Google Colab**.
 2.  Upload `Fake.csv` and `True.csv` to the files section.
 3.  Run all cells. (The code handles library installation and data preprocessing automatically).
