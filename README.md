@@ -49,7 +49,7 @@ We used the **Fake and Real News Dataset** from Kaggle.
 1.  Download `True.csv` and `Fake.csv` from the link below.
 2.  Place them in the same directory as the notebook (or upload to the Google Colab session).
 
-🔗 **[Dataset Link (Kaggle)](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)**
+**[Dataset Link (Kaggle)](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)**
 
 ---
 
